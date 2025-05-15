@@ -28,4 +28,4 @@ def index():
     return render_template("index.html", answer=answer)
 
 if __name__ == "__main__":
-    bot.run(debug=True)
+    bot.run(debug=True, port=5000)
